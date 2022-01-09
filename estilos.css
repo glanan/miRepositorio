@@ -1,0 +1,70 @@
+body {
+    background-image: linear-gradient(to bottom, red, blue);
+    
+}
+
+.transform {
+    background-color: rgb(206, 10, 157);
+    margin: 100px;
+    margin-left: 620px;
+    width: 100px;
+    height: 100px;
+    transform: rotate(45deg);
+    border: 2px solid rgb(255, 255, 255);
+    border-collapse: collapse;
+}
+h2 {
+    text-align: center;
+    padding-top: 15px;
+    padding-right: 10px;
+    transform: rotate(315deg);
+    color: antiquewhite;
+}
+
+h1 {
+    text-align: center;
+    color: beige;
+    border-bottom: 2px solid blanchedalmond;
+}
+
+a {
+    text-decoration: none;
+    color: beige;
+}
+
+a:hover {
+    border-bottom: 2px solid beige;
+}
+
+.animacion {
+    animation-name: mover;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    background-color: brown;
+    width: 400px;
+    height: 200px;
+}
+
+@keyframes mover {
+    0% {
+        margin-left: 0px;
+    }
+
+    50% {
+        margin-left: 100px;
+    }
+
+    100% {
+        margin-left: 0px;
+    }
+}
+
+.info {
+    text-align: center;
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 360px;
+    left: 110px;
+    color: aliceblue;
+}
